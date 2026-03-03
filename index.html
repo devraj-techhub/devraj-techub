@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devraj.tech | Your Hub for Previous Year Papers</title>
+    <style>
+        /* CSS STYLES */
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --text: #334155;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--text);
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary), #1e40af);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .search-box {
+            margin-top: 20px;
+        }
+
+        .search-box input {
+            padding: 15px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .search-box button {
+            padding: 15px 30px;
+            background-color: var(--dark);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        /* Categories */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--dark);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-bottom: 4px solid var(--primary);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <a href="#" class="logo">Devraj.tech</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Engineering</a>
+            <a href="#">Medical</a>
+            <a href="#">School</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Master Your Exams with Past Papers</h1>
+        <p>Access thousands of Previous Year Question Papers for free.</p>
+        <div class="search-box">
+            <input type="text" placeholder="Search for 'JEE 2023' or 'CBSE Class 12'...">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div class="container">
+        <h2 class="section-title">Browse by Category</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>🎓 Engineering</h3>
+                <p>JEE, GATE, University Exams</p>
+            </div>
+            <div class="card">
+                <h3>🩺 Medical</h3>
+                <p>NEET, AIIMS, Nursing</p>
+            </div>
+            <div class="card">
+                <h3>📚 School</h3>
+                <p>CBSE, ICSE, State Boards</p>
+            </div>
+            <div class="card">
+                <h3>🏛️ Competitive</h3>
+                <p>UPSC, SSC, Banking</p>
+            </div>
+            <div class="card">
+                <h3>💻 Coding</h3>
+                <p>University CS Labs & Theory</p>
+            </div>
+            <div class="card">
+                <h3>📝 Solutions</h3>
+                <p>Answer Keys & Marking Schemes</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Devraj.tech. All rights reserved.</p>
+        <p>Disclaimer: We do not own the copyright of these papers. They are for educational purposes.</p>
+    </footer>
+
+</body>
+</html>
