@@ -189,6 +189,22 @@
         <p>&copy; 2023 Devraj.tech. All rights reserved.</p>
         <p>Disclaimer: We do not own the copyright of these papers. They are for educational purposes.</p>
     </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".search-box button");
+    const input = document.querySelector(".search-box input");
 
+    button.addEventListener("click", function() {
+        let query = input.value.trim();
+
+        if(query === "") {
+            alert("Please enter something to search!");
+        } else {
+            alert("You searched for: " + query);
+        }
+    });
+});
+</script>
 </body>
+
 </html>
